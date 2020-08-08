@@ -1,0 +1,9 @@
+D:\VSCode\Blazor\BlazingChat\Shared\bin\Debug\netstandard2.1\BlazingChat.Shared.deps.json
+D:\VSCode\Blazor\BlazingChat\Shared\bin\Debug\netstandard2.1\BlazingChat.Shared.dll
+D:\VSCode\Blazor\BlazingChat\Shared\bin\Debug\netstandard2.1\BlazingChat.Shared.pdb
+D:\VSCode\Blazor\BlazingChat\Shared\obj\Debug\netstandard2.1\BlazingChat.Shared.csprojAssemblyReference.cache
+D:\VSCode\Blazor\BlazingChat\Shared\obj\Debug\netstandard2.1\BlazingChat.Shared.AssemblyInfoInputs.cache
+D:\VSCode\Blazor\BlazingChat\Shared\obj\Debug\netstandard2.1\BlazingChat.Shared.AssemblyInfo.cs
+D:\VSCode\Blazor\BlazingChat\Shared\obj\Debug\netstandard2.1\BlazingChat.Shared.csproj.CoreCompileInputs.cache
+D:\VSCode\Blazor\BlazingChat\Shared\obj\Debug\netstandard2.1\BlazingChat.Shared.dll
+D:\VSCode\Blazor\BlazingChat\Shared\obj\Debug\netstandard2.1\BlazingChat.Shared.pdb

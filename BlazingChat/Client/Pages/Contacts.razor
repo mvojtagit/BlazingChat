@@ -1,0 +1,51 @@
+@page "/contacts"
+@using BlazingChat.Shared.Models
+@inject NavigationManager navMan
+
+
+<h1>Contacts</h1>
+
+@if (_contacts == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <div class="col-12">
+        @foreach(var contact in _contacts)
+        {
+            <a @onclick="NavigateToChat" class="list-group-item list-group-item-action flex-column align-items-start" href="chat">
+                @contact.FirstName <span></span> @contact.LastName
+            </a>
+        }
+    </div>
+}
+
+@code 
+{
+    //private WeatherForecast[] forecasts;
+    private List<Contact> _contacts= new List<Contact>();
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        _contacts.Add( new Contact {ContactId=1,FirstName="Mrki", LastName="Medo"});
+        _contacts.Add( new Contact {ContactId=2,FirstName="Baba", LastName="Jaga"});
+        _contacts.Add( new Contact {ContactId=3,FirstName="Lana", LastName="Lanic"});
+        _contacts.Add( new Contact {ContactId=4,FirstName="John", LastName="Johnic"});
+        _contacts.Add( new Contact {ContactId=5,FirstName="Marko", LastName="Darkić"});
+        _contacts.Add( new Contact {ContactId=6,FirstName="Darko", LastName="Markoić"});
+        
+
+
+        //forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("WeatherForecast");
+    }
+
+    private void NavigateToChat()
+    {
+        navMan.NavigateTo("/chat");
+    }
+
+
+
+}
